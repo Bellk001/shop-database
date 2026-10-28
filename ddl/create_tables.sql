@@ -1,3 +1,8 @@
+CREATE TABLE customers (
+    customer_id NUMBER PRIMARY KEY,
+    full_name   VARCHAR2(100) NOT NULL
+);
+
 
 CREATE TABLE orders (
     order_id    NUMBER PRIMARY KEY,
